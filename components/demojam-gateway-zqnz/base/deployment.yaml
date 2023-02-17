@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: demojam-gateway-zqnz
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:FgnBp-demojam-gateway-zqnz
+      - image: quay.io/redhat-appstudio/user-workload@sha256:7da1518c0cf29bb66a2d3f71eb43ee5903a7501a37766eae1ca33600e5c3ad76
         name: my-nodejs
         ports:
         - containerPort: 3001
